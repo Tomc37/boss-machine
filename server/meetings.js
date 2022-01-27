@@ -1,6 +1,7 @@
 const express = require('express');
 const meetingsRouter = express.Router();
 
+
 const {
   createMeeting,
   getAllFromDatabase,
